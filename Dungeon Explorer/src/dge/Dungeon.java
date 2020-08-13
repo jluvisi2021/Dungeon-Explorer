@@ -55,7 +55,7 @@ public class Dungeon {
         // NORTH, SOUTH, WEST, EAST
         r0.setRoomsBordering(new ArrayList<>(Arrays.asList(r1, null, r3, r2)));
         r1.setRoomsBordering(new ArrayList<>(Arrays.asList(r5, r0, null, null)));
-        r2.setRoomsBordering(new ArrayList<>(Arrays.asList(r3, null, r0, null)));
+        r2.setRoomsBordering(new ArrayList<>(Arrays.asList(null, null, r0, null)));
         r3.setRoomsBordering(new ArrayList<>(Arrays.asList(r4, null, null, r0)));
         r4.setRoomsBordering(new ArrayList<>(Arrays.asList(null, r3, null, null)));
         r5.setRoomsBordering(new ArrayList<>(Arrays.asList(r12, r1, r9, r6)));
